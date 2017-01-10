@@ -1,0 +1,52 @@
+<ion-view title="Settings" id="page4">
+  <ion-content padding="true" class="has-header">
+    <form id="settings-form5" class="list">
+    <ion-item class="item-divider" id="settings-list-item-divider1"> Fare Settings</ion-item>
+      <label class="item item-input" id="settings-input15">
+        <span class="input-label">Conductor #:</span>
+        <input type="text" placeholder="Conductor Number" id="conductornumber">
+      </label>
+      <label class="item item-input" id="settings-input23">
+        <span class="input-label">Bus #:</span>
+        <input type="text" placeholder="Bus Number" id="busnumber">
+      </label>
+      <label class="item item-input" id="settings-input16">
+        <span class="input-label">Minimum Fare:</span>
+        <input type="text" placeholder="Please input minimum fare" id="minimumfare">
+      </label>
+      <label class="item item-input" id="settings-input17">
+        <span class="input-label">Minimum KM:</span>
+        <input type="text" placeholder="Please input minimum km" id="minimumkm">
+      </label>
+      <label class="item item-input" id="settings-input18">
+        <span class="input-label">Succeeding KM Fare:</span>
+        <input type="text" placeholder="Please input minimum amount" id="succeedingfare">
+      </label>
+      <label class="item item-input" id="settings-input24">
+        <span class="input-label">Discount %:</span>
+        <input type="text" placeholder="Please input discount" id="discount">
+      </label>
+      <button ng-click="Load()" id="settings-button4" class="button button-positive  button-block ion-card"> Load Card</button>
+      <ion-item class="item-divider" id="settings-list-item-divider2"> App Settings</ion-item>
+      <!-- <ion-toggle ng-model="airplaneMode" toggle-class="toggle-balanced">ShowKeyboard</ion-toggle> -->
+       <label class="item item-input" id="settings-input19">
+        <span class="input-label">Host:</span>
+        <input type="text" placeholder="http://" id="servername">
+      </label>
+      <label class="item item-input" id="settings-input20" style="display:none;">
+        <span class="input-label">Username:</span>
+        <input type="password" placeholder="Username" id="username">
+      </label>
+      <label class="item item-input" id="settings-input21" style="display:none;">
+        <span class="input-label">Password:</span>
+        <input type="password" placeholder="Password" id="password">
+      </label>
+      <label class="item item-input" id="settings-input22" style="display:none;">
+        <span class="input-label">Database:</span>
+        <input type="password" placeholder="Database" id="database">
+      </label>
+    </form>
+    <button ng-click="UpdateSettings()" id="settings-button3" class="button button-balanced  button-block icon ion-loop"> Update</button>
+    <!-- <button ng-click="Sync()" id="settings-button4" class="button button-calm  button-block icon ion-android-upload "> Sync</button> -->
+  </ion-content>
+</ion-view>

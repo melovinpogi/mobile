@@ -1,0 +1,45 @@
+<ion-view title="Passenger Transaction" id="page5">
+  <ion-content padding="true" class="has-header" ng-controller="GeoCtrl">
+    <ion-list id="cardReader-list6">
+      <ion-item class="item-divider" id="cardReader-list-item-divider2"> Please Tap the Card</ion-item>
+      <label class="item item-input" id="cardReader-input12" name="rfid">
+        <span class="input-label">ID/Card</span>
+        <!-- <div class="hide-on-keyboard-open"> -->
+        <input type="text" placeholder="Please Input ID/Card #" name="cardreader" id="cardreader">
+        <!-- </div> -->
+      </label>
+    </ion-list>
+    <button style="display: none;" ng-click="New()" id="new" class="button button-calm button-block icon ion-clipboard"> New Transaction</button>
+    <button style="display: none;" ng-click="Discount()" id="fare-discount" class="button button-positive button-block icon ion-cash"> Discount</button>
+    <div class="list card" id="cardReader-card22"></div>
+   <timer interval="1000"/>
+    <form id="cardReader-form4" class="list">
+      <label class="item item-input" id="cardReader-input13" name="longtitude">
+        <span class="input-label">Longitude</span>
+        <input type="text" placeholder="Longitude" id="longitude" readonly="">
+      </label>
+      <label class="item item-input" id="cardReader-input14" name="latitude">
+        <span class="input-label">Latitude</span>
+        <input type="text" placeholder="Latitude" id="latitude" readonly="">
+      </label>
+       <label class="item item-input" id="fare-input6">
+        <span class="input-label">From:</span>
+        <input type="text" placeholder="Pickup Place" id="from" readonly="">
+      </label>
+      <label class="item item-input" id="fare-input7">
+        <span class="input-label">To</span>
+        <input type="text" placeholder="Drop Place" id="to" readonly="">
+      </label>
+      <label class="item item-input" id="fare-input8">
+        <span class="input-label">Total KM:</span>
+        <input type="text" placeholder="Total Kilometers" id="totalkm" readonly="">
+      </label>
+      <label class="item item-input" id="fare-input9">
+        <span class="input-label">Total Fare:</span>
+        <input type="text" placeholder="Total Payment" id="totalpayment" readonly="">
+      </label>
+      <button style="display:none;" ng-click="Print()" id="print" class="button button-balanced button-block icon ion-printer"> Print</button>
+    </form>
+  </ion-content>
+</ion-view>
+

@@ -1,0 +1,17 @@
+<ion-view title="Seats" id="page5" ng-init="loadImages()">
+  <ion-content padding="true" class="has-header">
+       <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()"> </ion-refresher>
+     <div class="row" ng-repeat="image in images" ng-if="$index % 2 === 0" >
+        <div class="col col-50 {{ images[$index].alt }}" ng-if="$index < images.length" style="color: red;" 
+        ng-click="occupied($index + 1)" >
+            <img ng-src="{{images[$index].src}}" width="40%" id="{{ 'img-' + [$index + 1] }}" alt="{{ images[$index].alt }}" />
+            {{ 'Seat ' + [$index + 1] }}
+        </div>
+        <div class="col col-50 {{ images[$index + 1].alt }}" ng-if="$index + 1 < images.length" style="color: red;" 
+        ng-click="occupied($index + 2)">
+            <img ng-src="{{images[$index + 1].src}}" width="40%" id="{{ 'img-' + [$index + 2] }}" alt="{{images[$index + 1].alt}}"/>
+            {{ 'Seat ' + [$index + 2] }}
+        </div>
+    </div>
+  </ion-content>
+</ion-view>
