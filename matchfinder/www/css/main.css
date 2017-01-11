@@ -1,0 +1,139 @@
+.navbar, .navbar-default{
+
+	background-color: #edafb2 !important; 
+	border-color: #edafb2 !important;
+	margin-bottom: 0px !important;
+}
+
+.navbar-form, .navbar-left{
+	border-color: #edafb2 !important;
+	-webkit-box-shadow: 0px !important;
+}
+
+.customized-nav-tab a{
+	color: #edafb2 !important;
+}
+
+/*.container{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+.input-group{
+	margin: 5px;
+}
+
+#friend-content, #profile-content, #settings-content{
+	margin:10px;
+}
+
+#profile-content, #settings-content,#friend-content{
+	display: none;
+
+}
+
+.img-adjustment{
+	margin:5px;
+	float: left;
+	height: 55px;
+	width: 55px;
+}
+
+.activity a{
+	text-decoration: none;
+}
+
+.activity {
+	margin-top: 20px;
+	float: left;
+	width: auto;
+}
+
+.message {
+	width: auto;
+	margin-top: 20px;
+}
+
+.message a{
+	text-decoration: none;
+}
+
+.h4-adjustment{
+	text-align: justify;
+	margin: 10px;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.a-adjustment{
+	margin: 5px 10px;
+}
+
+.btn-adjustment{
+	border-color: white;
+}
+
+.text-adjustment{
+	margin:0px !important;
+}
+
+#login-form input{
+	margin-bottom: 5px;
+}
+
+#login-form, .loading-icon, #main-content{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+
+#login-outer, .loading-outer{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content:center;
+}
+
+#login-inner, .loading-inner{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+#login-container{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.customized-panel{
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+.customized-panel-heading, .customized-btn-block{
+	background-color: #edafb2 !important;
+	border-color: #edafb2 !important;
+	color: white;
+	font-weight: bold;
+}
+
+
+.customized-btn-block:hover{
+	background-color: #e5a7a9 !important;
+	border-color: #e5a7a9 !important;
+	color: white;
+	font-weight: bold;	
+}
+
+.loading-icon{
+	display: none;
+}
+

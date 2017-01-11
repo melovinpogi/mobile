@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <title>Hello World</title>
+    </head>
+    <body>
+
+    	<nav class="navbar navbar-default" role="navigation">
+	            <div class="row">
+	            	<div class="col-lg-12 text-center">
+	            		<h3>Test</h3>
+	            	</div>
+	            </div>
+					<div class="row">
+					  <div class="col-lg-6">
+					    <div class="input-group">
+					      <input type="text" class="form-control" placeholder="Search People">
+					      <span class="input-group-btn">
+					        <button class="btn btn-default" type="button">Search</button>
+					      </span>
+					    </div>
+					  </div>
+					 </div>
+	       </nav>    
+
+
+        <div class="container">
+            <div class="row">
+            	<ul class="nav nav-tabs text-center">
+            		<li class="active col-xs-3 col-sm-3"><a href="#"><span id="home" class="glyphicon glyphicon-home"></span></a></li>
+					<li class="col-xs-3 col-sm-3"><a href="#"><span id="profile" class="fa fa-user"></span></a></li>
+					<li class="col-xs-3 col-sm-3"><a href="#"><span id="friends" class="fa fa-users"></span></a></li>
+					<li class="col-xs-3 col-sm-3"><a href="#"><span id="settings" class="glyphicon glyphicon-cog"></span></a></li>
+            	</ul>
+            </div>
+
+           
+            <div id="home-content">
+            	<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="What are you thinking?">
+							    <span class="input-group-addon"><a href="#"><i class="fa fa-camera-retro fa-lg"></i></a></span>
+						</div>
+					</div>
+				</div>
+
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 thumbnail">
+							<div class="input-group" id="homepage">
+								<!-- <div class="row">
+								    <div class="col-xs-12 col-sm-12">
+									    <div class="btn-group btn-group-justified">
+											<a class="btn btn-default btn-adjustment"><i class="fa fa-check-square-o"></i> Like</a>
+											 <a class="btn btn-default btn-adjustment"><i class="fa fa-times"></i> Unlike</a>
+											 <a class="btn btn-default btn-adjustment"><i class="fa fa-comment-o"></i> Comment</a>
+										</div>
+									</div>
+								</div> -->
+
+							</div>
+						</div>
+						</div>
+	            	</div>
+            </div>
+            	 <!-- Friend page -->
+	            <div id="friend-content">
+	            	<div class="row">
+		            	<div class="col-xs-12 col-sm-12 thumbnail">
+
+		            			<div class="col-xs-4 col-sm-5">
+			            			<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10394542_10203282389891906_4296489387464685390_n.jpg?oh=e2aaf99b658bcac1dd2c792f3c73aa7e&oe=54DD2E4F&__gda__=1424725849_46b8376f3c92b3dda6c6ba71d16969d7" alt="" 
+			            			class="img-circle img-responsive img-adjustment">
+		            			</div>
+
+		            				<div class="col-xs-8 col-sm-8 activity">
+			            				<a href="#"><p class="text-primary"><span class="glyphicon glyphicon-list-alt"></span> Activity</p></a>
+			            				<!-- <span class="glyphicon glyphicon-list-alt"></span> -->
+			            			</div>
+
+			            			<div class="col-xs-8 col-sm-8 message">
+			            				<a href="#"><p class="text-primary"><span class="glyphicon glyphicon-envelope"></span> Message</p></a>
+			            				<!-- <span class="glyphicon glyphicon-list-alt"></span> -->
+			            			</div>
+
+		            		</div>
+	            		</div>
+
+
+	            		<div class="row">
+		            		<div class="col-xs-12 col-sm-12 thumbnail">
+
+		            			<div class="col-xs-4 col-sm-5" >
+			            			<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/13244_842080555812205_4533359101887231884_n.jpg?oh=ab833f1067c86c24b09792f5fa6baf61&oe=54ED5005&__gda__=1424166520_ba18eda68c0b93f78433774f747f57d7" alt="" 
+			            			class="img-circle img-responsive img-adjustment">
+		            			</div>
+
+		            				<div class="col-xs-8 col-sm-8 activity">
+			            				<a href="#"><p class="text-primary"><span class="glyphicon glyphicon-list-alt"></span> Activity</p></a>
+			            				<!-- <span class="glyphicon glyphicon-list-alt"></span> -->
+			            			</div>
+
+			            			<div class="col-xs-8 col-sm-8 message">
+			            				<a href="#"><p class="text-primary"><span class="glyphicon glyphicon-envelope"></span> Message</p></a>
+			            				<!-- <span class="glyphicon glyphicon-list-alt"></span> -->
+			            			</div>
+
+		            		</div>
+	            		</div>
+
+	            		<div class="row">
+		            		<div class="col-xs-12 col-sm-12 thumbnail">
+
+		            			<div class="col-xs-4 col-sm-5" >
+			            			<img src="https://scontent-b-lax.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10710827_961655793848052_239843426940186083_n.jpg?oh=bf5199c5aadbe9dd878d9ad562553849&oe=54EB812D" alt="" 
+			            			class="img-circle img-responsive img-adjustment">
+		            			</div>
+
+		            				<div class="col-xs-8 col-sm-8 activity">
+			            				<a href="#"><p class="text-primary"><span class="glyphicon glyphicon-list-alt"></span> Activity</p></a>
+			            				<!-- <span class="glyphicon glyphicon-list-alt"></span> -->
+			            			</div>
+
+			            			<div class="col-xs-8 col-sm-8 message">
+			            				<a href="#"><p class="text-primary"><span class="glyphicon glyphicon-envelope"></span> Message</p></a>
+			            				<!-- <span class="glyphicon glyphicon-list-alt"></span> -->
+			            			</div>
+
+		            		</div>
+	            		</div>
+
+	            	</div>
+	            </div>
+
+            <!-- profile -->
+
+	            <div id="profile-content">
+	            	<div class="row">
+	            		
+	            		<div class="row">
+						  <div class="col-sm-12 col-md-12">
+						    <div class="thumbnail">
+						    	<!-- Profile Picture -->
+						    	<div class="row">
+						    		<div class="col-xs-12 col-sm-12">
+							    		<div id="profile-image" ></div>
+							    	</div>
+							    </div>
+						      <!-- User Information -->
+						      <div class="caption" id="profile-caption"></div>
+						      <!-- Photos -->
+						      	<div class="col-xs-6 col-lg-6">
+									<a href="#"><h3><span class="fa fa-camera-retro"></span> Photos</a> 
+								</div>
+								<!-- Post -->
+								<div class="col-xs-6 col-lg-6">
+									<a href="#"><h3><span class="fa fa-list-alt"></span> Post</a></h3> 
+								</div>
+
+						    </div>
+						  </div>
+						</div>
+
+	            	</div>
+	            </div>
+
+
+            <!-- Settings -->
+
+            	<div id="settings-content">
+	            	<p>This is Settings</p>
+	            </div>
+
+
+        </div>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    
+    </body>
+</html>
