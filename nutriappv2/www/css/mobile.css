@@ -1,0 +1,186 @@
+/* Swipe works with mouse as well but often causes text selection. */
+/* We'll deny text selecton on everything but INPUTs and TEXTAREAs. */
+#main-page :not(INPUT):not(TEXTAREA) {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+/* Content styling. */
+dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
+dt { font-size: 2em; font-weight: bold; }
+dt span { font-size: .5em; color: #777; margin-left: .5em; }
+dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+.back-btn { float: right; margin: 0 2em 1em 0; }
+
+
+.ui-listview>.ui-li-static{
+  padding: 0em;
+}
+
+
+.center-text{
+  margin: -15px 0px 0px 0px !important;
+}
+
+
+.img-prop{
+	height: 350px !important;
+	width: 100% !important;
+}
+
+.ui-content {
+	padding: 0;
+}
+
+.zoom{
+	position: relative !important;
+	width: 100%;
+}
+
+.img-header{
+	height: 80px;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+#left-panel{
+	padding-top: 96px;
+}
+
+#main-header{
+	margin-top: 70px;
+}
+
+#rartt{
+	width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.modal-backdrop.in {
+	opacity: 0.5 !important;
+}
+
+.ui-btn {
+    font-size: 14px !important;
+}
+
+.modal-top{
+	/*margin-top: 100px;*/
+}
+
+.text-margin{
+	margin-left: 20px;
+}
+
+.font-bold{
+	font-weight: bold;
+}
+
+
+.logo-header{
+	margin:auto;
+	padding: 10px 10px 0px 10px;
+}
+
+.div-header{
+	background-color: #080808 !important;
+	padding-top: 20px;
+}
+
+.ui-panel-wrapper{
+  z-index: 0 !important;
+}
+
+.page-home{
+	margin-top: 90px !important;
+}
+
+.page-header{
+	margin-top: 100px;
+}
+.page-top{
+	position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
+.container-top{
+	margin-top: 130px;
+}
+
+.promo-height{
+	margin-top: 20px;
+}
+
+.promo-height-extended{
+	margin-top: 70px;
+}
+
+.alert-style{
+	width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.color-font{
+	color: black !important;
+	text-shadow: 0px 0px black !important;
+}
+
+.footer{
+	background-color: #515151 !important; 
+	text-shadow: 0px 0px #515151 !important; 
+	color:#cccccc !important;
+	height: auto;
+}
+
+.icons{
+	margin-left: 5%;
+}
+
+.footer-info{
+	padding-top: 10%;
+}
+
+.title{
+	border-bottom: 1px solid #e5e5e5;
+	padding-left: 3%;
+}
+
+.roundbox{
+	box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: white;
+}
+
+.nutri{
+	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.tech{
+	font-style: italic;
+}
+
+.roundbox-content{
+	text-align: justify;
+    padding-right: 5%;
+}
+.roundbox-img{
+	position: absolute;
+    margin-left: 30%;
+    width: 65%;
+}
+
+#viewing-content{
+	background-color: #1d1d1d;
+}
